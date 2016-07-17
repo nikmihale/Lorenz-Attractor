@@ -12,8 +12,6 @@ def ydot(rho, x, y, z):
 def zdot(beta, x, y, z):
 	return x * y - beta * z
 
-#x, y, z = 1, 1, 1
-#sigma, rho, beta = 10, 28, 8/3
 ptinput = raw_input("Enter the starting point coordinates separated by commas (try 1, 1, 1) : ")
 point = ptinput.split(',')
 
